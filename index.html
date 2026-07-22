@@ -1,41 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Day 2 App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Caleb's Portfolio</title>
 
 <style>
+
 body{
-background:#111827;
+margin:0;
+font-family:Arial,sans-serif;
+background:#0f172a;
 color:white;
-font-family:Arial;
-text-align:center;
-margin-top:100px;
 }
 
-button{
-padding:15px 30px;
-font-size:20px;
-border:none;
-border-radius:10px;
-background:#22c55e;
-color:white;
+header{
+background:#1e293b;
+padding:20px;
+text-align:center;
 }
+
+header h1{
+margin:0;
+font-size:36px;
+}
+
+header p{
+font-size:18px;
+color:#cbd5e1;
+}
+
+section{
+padding:30px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:15px;
+margin-bottom:20px;
+}
+
+h2{
+color:#38bdf8;
+}
+
+ul{
+padding-left:20px;
+}
+
+a{
+color:#38bdf8;
+text-decoration:none;
+}
+
 </style>
 
 </head>
 
 <body>
 
-<h1>My First Interactive App</h1>
+<header>
+<h1>👨‍💻 Caleb Ebuluo</h1>
+<p>Beginner Web Developer</p>
+</header>
 
-<p>Press the button.</p>
+<section>
 
-<button onclick="sayHello()">Click Me</button>
+<div class="card">
+<h2>👋 About Me</h2>
+<p>
+I am a beginner web developer from Nigeria.
+I enjoy building web applications with HTML, CSS and JavaScript.
+My goal
+document.addEventListener("DOMContentLoaded",function(){
 
-<script>
-function sayHello(){
-alert("Congratulations Caleb! You wrote your first JavaScript!");
-}
+alert("👋 Welcome to Caleb's Portfolio!");
+
+});
+
 </script>
 
 </body>
